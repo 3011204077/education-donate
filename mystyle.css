@@ -1,0 +1,257 @@
+body, html {
+width: 100%;
+margin: 0%;
+font-family: 'PT Sans', sans-serif;
+}
+
+.navbar {
+font-family: 'PT Sans', sans-serif;
+margin:0;
+}
+
+.navbar-default {
+background-color: #3498db;
+border-color: #3498db;
+font-size:20px;
+border-radius:5px;
+}
+
+.navbar-nav {
+float:right;
+}
+
+.navbar-nav > li > a {
+float:right;
+}
+
+.navbar-default .navbar-brand {
+color: white;
+}
+
+.navbar-default .navbar-text {
+color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+color: white;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+color: #bdc3c7;
+background-color: #066caf;
+}
+
+.navbar-collapse > ul{
+float:right;
+}
+
+.navbar-nav > li > a{
+width:100%;
+text-align: center;
+}
+
+.navbar-default .navbar-nav > .open > a:focus {
+width:200px;
+}
+
+.container-fluid .jumbotron {
+border-radius: 0px;
+}
+
+#searchbar {
+font-family: 'PT Sans', sans-serif;
+margin-left: 100px;
+margin-top: 40px;
+margin-bottom: 40px;
+font-size:20px;
+border-radius:0px;
+width: 800px;
+}
+
+#panelheading{
+  font-family: 'PT Sans', sans-serif;
+  font-size:20px;
+}
+
+#buttongroup{
+  font-family: 'PT Sans', sans-serif;
+  float:right;
+}
+
+#img{
+  margin-bottom: 15px;
+}
+
+.glyphicon-move {
+  cursor: move;
+  cursor: -webkit-grabbing;
+}
+
+.blog-post{
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    background: #faf7d2;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 2px solid #f7f7c9
+}
+
+
+.button1{
+  background-image: -webkit-linear-gradient(top, #ffb829, #ffa200);
+  background-image: -moz-linear-gradient(top, #ffb829, #ffa200);
+  background-image: -ms-linear-gradient(top, #ffb829, #ffa200);
+  background-image: -o-linear-gradient(top, #ffb829, #ffa200);
+  background-image: linear-gradient(to bottom, #ffb829, #ffa200);
+ -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: 'PT Sans', sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 15px 40px 15px 40px;
+  text-decoration: none;
+  height:80px;
+  width:300px;
+  margin-top: 15px;
+
+}
+.button2{
+  background-image: -webkit-linear-gradient(top, #ffb829, #ffa200);
+  background-image: -moz-linear-gradient(top, #ffb829, #ffa200);
+  background-image: -ms-linear-gradient(top, #ffb829, #ffa200);
+  background-image: -o-linear-gradient(top, #ffb829, #ffa200);
+  background-image: linear-gradient(to bottom, #ffb829, #ffa200);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: 'PT Sans', sans-serif;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 8px 40px 10px 40px;
+  text-decoration: none;
+  height:50px;
+  width:300px;
+  margin-top: 15px;
+}
+
+.button1:hover{
+    background: rgb(245,201,84);
+  text-decoration: none;
+}
+.button2:hover{
+    background: rgb(245,201,84);
+  text-decoration: none;
+}
+
+
+.update {
+      margin-top: 20px;
+      height: 500px;
+      border: solid;
+}
+
+.total{
+     margin-top: 20px;
+     margin-bottom: 5px;
+     font-size: 20px;
+     font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+      color:rgb(22,79,151);
+}
+.money {
+      margin-top: 5px;
+      height: 50px;
+      font-size: 60px;
+      font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+      color:rgb(22,79,151);
+      margin-bottom: 20px;
+}
+
+#infohead{
+  font-size: 30px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  color:rgb(58,153,216);
+}
+#infodetail{
+   margin-top: 15px;
+   font-size: 23px;
+   font-family: 'PT Sans', sans-serif;
+   color:rgb(58,153,216);
+}
+.bloger-header{
+  align:center;
+}
+
+.blog-title{
+  font-size: 50px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  color:rgb(22,79,151);
+}
+#photo{
+  height:280px;
+  margin-bottom: 10px;
+}
+#story{
+  padding-top: 8px;
+  padding-left: 5px;
+  font-size: 17px;
+  font-family: 'PT Sans', sans-serif;
+  text-align: justify;
+  color:rgb(25,70,111);
+}
+
+#space {
+  height: 15px;
+}
+
+#ctgrybutton{
+	width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  padding-top: 2px;
+}
+
+#campaignbutton{
+	width: 200px;
+	height: 45px;
+	
+	padding-right: 4px;
+	padding-left: 4px;
+
+}
+
+#category{
+	width: 270px;
+	padding-left: 20px;
+}
+
+#mostpop{
+	margin-left: 10px;
+	padding-left: 20px;
+}
+
+#detail{
+	margin-left: 63px;
+	margin-right: 0px;
+	padding-right: 10px;
+}
+
+#signupinfo{
+	width: 400px;
+	height: 350px;
+	margin-left: 340px;
+
+}
+
+#signupcontent{
+	padding-left: 20px;
+}
